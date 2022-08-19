@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"JavaIME",
+		"Javascript Beautify",
+		"Javatar",
+		"JSHint",
+		"JSLint",
+		"Material Theme",
+		"Package Control",
+		"Phpcs",
+		"SideBarEnhancements",
+		"SideBarTools",
+		"SublimeAStyleFormatter",
+		"SublimeCodeIntel",
+		"Terminality",
+		"Terminus",
+		"Trimmer",
+		"Whitespace",
+		"Whitespace Removal",
+	],
+	"in_process_packages":
+	[
+	],
+
+	
+}

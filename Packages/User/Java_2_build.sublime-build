@@ -1,0 +1,10 @@
+{
+	 "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+     "working_dir": "${file_path}",
+     "selector": "source.java",
+     "cmd": ["javac", "$file_name","&&","start","cmd","/k","java", "$file_base_name"],
+     /*"path":"C:\\Program Files (x86)\\Java\\jdk1.8.0_202\\bin",*/
+     "path":"C:\\Program Files\\Java\\jdk-16.0.2\\bin",
+     "shell": true
+
+}

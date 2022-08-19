@@ -1,0 +1,6 @@
+this one for whole folder
+C:\Users\Acer\AppData\Roaming\Sublime Text 3
+
+
+this one for prefesedns and setting
+C:\Users\Acer\AppData\Roaming\Sublime Text 3\Packages\User

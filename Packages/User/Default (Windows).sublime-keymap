@@ -1,0 +1,16 @@
+[
+   {
+       "keys": ["alt+1"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       },
+   },
+     
+     { "keys": ["ctrl+alt+c"], "command": "cancel_build"  },
+     
+   {"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}},
+
+]

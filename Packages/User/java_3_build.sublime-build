@@ -1,0 +1,16 @@
+{   "path":"C:\\Program Files (x86)\\Java\\jdk1.8.0_202\\bin",
+    
+    "cmd": [
+        "javac",
+        "$file_name",
+        "&&",
+        "start",
+        "cmd",
+        "/k",
+        "java",
+        "$file_base_name"
+    ],
+    "selector": "source.java",
+    "working_dir": "${file_path}",
+    "shell": true
+}

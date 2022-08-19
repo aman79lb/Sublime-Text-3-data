@@ -1,0 +1,22 @@
+/* 
+# How to use it?
+- Sublime => Tools => Build System => New Build System ...
+- copy paste this code
+- save as C++.sublime-build
+- Tools => Build System => C++
+- write some code.
+- ctrl + b to run your code.
+- default standard is c++17.
+*/
+ 
+{
+    "cmd" : ["g++", "-std=c++17", "${file_name}", "-o", "a.exe", "&&", "start", "cmd", "/c", "a.exe & echo. & pause"],
+ 
+    // remove "& echo. & pause" to automatically close terminal
+    // "cmd" : ["g++", "-std=c++17", "${file_name}", "-o", "a.exe", "&&", "start", "cmd", "/c", "a.exe"],
+ 
+    "shell" : true,
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir" : "${file_path}",
+    "selector" : "source.cpp, source.c++",
+}

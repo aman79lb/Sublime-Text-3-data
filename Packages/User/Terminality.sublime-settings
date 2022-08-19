@@ -1,0 +1,17 @@
+
+{
+        "keys": ["ctrl+alt+r"],
+        "command":"terminality",
+        "args": {
+                  "action": { "name": "main" }
+  ,"arguments": true
+                }
+
+        ,"keys": ["ctrl+alt+shift+r"],
+        "command": "terminality",
+        "args": {
+                 "action": { "name": "main" }
+                ,"arguments": true
+                 }
+}
+
